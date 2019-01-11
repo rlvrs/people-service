@@ -14,7 +14,7 @@ So, to utilize pytest, you need to make it the default test runner first as foll
 2. In the Default test runner field select pytest.
 3. Click OK to save the settings.
 
-###This project is using:
+### This project is using:
  - **Setuptools**: for packaging purposes.
  - **PyTest**: for testing purposes.
  - **Tox**: to execute the tests with different Python versions.
