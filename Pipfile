@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+pytest = ">=2.8.0"  # Test framework.
+pytest-mock = "*"   # Thin-wrapper around the mock package for easier use with py.test.
+pytest-cov = "*"    # Coverage plugin for pytest.
+pytest-xdist = "*"  # Pytest distributed testing plugin.
+codecov = "*"       # Tool for measuring code coverage of Python programs
+flake8 = "*"        # PEP 8 linter.
+tox = "*"           # Test with multiple versions of Python.
+detox = "*"         # Tox with parallelism.
+jsonpickle = "*"    # Encode and decode JSON objects.
+
+[packages]
+flask = "*"         # The Python micro framework for building web applications.
+connexion = "*"     # Swagger/OpenAPI First framework for Python on top of Flask with automatic endpoint validation & OAuth2 support.
+jsonpickle = "*"    # Encode and decode JSON objects.
+
+[requires]
+python_version = "3.6"
