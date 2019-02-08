@@ -14,7 +14,7 @@ basePath: /api
 paths:
   /people:
     get:
-      operationId: app.people.people_manager.read_all
+      operationId: app.people.api.read_all
       tags:
         - People
       summary: Read the entire list of people
@@ -43,6 +43,15 @@ paths:
                   type: string
                 timestamp:
                   type: string
+  /people/health:
+    get:
+      operationId: app.people.api.health
+      tags:
+        - Health
+      summary: Health Check
+      responses:
+        200:
+          description: Status message from server describing current health
 #
 #    post:
 #      operationId: people.create
@@ -70,7 +79,7 @@ paths:
 
   /people/{lname}:
     get:
-      operationId: app.people.people_manager.get_person_by_last_name
+      operationId: app.people.api.get_person_by_last_name
       tags:
         - People
       summary: Read one person from the people list

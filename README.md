@@ -1,8 +1,8 @@
-# Movies Service
+# People Service
 I started this project to grasp the Python best practices
 in order to build a Continuous Integration pipeline.
 
-This project holds a dummy service that registers the information about movies received
+This project holds a dummy service that registers the information about people received
 from other services, such as web scrapping services.
 
 ## IDE Configuration
@@ -30,3 +30,6 @@ So, to utilize pytest, you need to make it the default test runner first as foll
  - flake8       # PEP 8 linter.
  - tox          # Test with multiple versions of Python.
  - detox        # Tox with parallelism. (not currently working)
+ - Flask        # Python micro framework for building web applications
+ - Connexion    # Swagger/OpenAPI framework for Python on top of Flask
+ - Jsonpickle   # Serialization and deserialization of complex Python objects to and from JSON
